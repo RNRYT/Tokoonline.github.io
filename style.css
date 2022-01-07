@@ -1,7 +1,7 @@
 nav {
   height: 40px;
   width: 100%;
-  background: #6e3cbc;
+  background: #99a799;
   font-size: 11pt;
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: bold;
@@ -27,7 +27,7 @@ nav a {
 }
 nav a:hover,
 nav a:active {
-  background-color: #7267cb;
+  background-color: #adc2a9;
   color: #fff;
 }
 nav a#pull {
@@ -100,4 +100,24 @@ body {
 #navbar {
   margin-top: 1%;
   margin-bottom: 1%;
+}
+
+#product {
+  margin-top: 9%;
+}
+
+.img-hover-zoom--blur img {
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  filter: blur(2px);
+  transform: scale(1);
+}
+.img-hover-zoom--blur:hover img {
+  filter: blur(0);
+  transform: scale(1.1);
+}
+
+#product img {
+  height: 250px;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
